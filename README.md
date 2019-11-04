@@ -17,15 +17,64 @@ By the end of this kata we hope to accomplish the following:
 - Create a shared service to assemble the heroes
 - Use routing to navigate among different views and their components
 
-### Step Uno, Create Repo
+### 1. Create Repo
 
 Run `ng new <NAME>`
 Allow Routing
 Enable CSS
 
-### Step Dos, 
+This will give you the NG boilerplate:
+- A new workspace
+- An initial skeleton
+- An end to end test project
+- Related config files
+
+Run the app `ng serve --open`
+
+Change the application title to `Tour of Wizards`
+Delete the default template and replace with `<h1>{{ title }}</h1>`
+
+Add some applications wide styles
+```
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+```
+
+### 2. 
 
 Something
+
+### 3. 
+
+### 4. 
+
+### 5. 
+
+### 6. 
+
+### 7. 
+
+### 8. 
 
 ## Development server
 
